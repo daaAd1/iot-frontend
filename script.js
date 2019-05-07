@@ -34,7 +34,7 @@ function getTransitInfo() {
     }
   };
 
-  xhttp.open('GET', 'http://localhost:5000/transit-request', true);
+  xhttp.open('GET', 'http://studentapp.kpi.fei.tuke.sk:5000/', true);
   xhttp.send();
 }
 
